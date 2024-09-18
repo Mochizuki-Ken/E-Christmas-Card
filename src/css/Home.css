@@ -1,0 +1,98 @@
+.Home_Main_div{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    background-image: url('../Img/Start_Background_Pc.png');
+    background-size:1200px;
+    background-repeat: repeat-x;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Home_Main_div .Home_div{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(240, 255, 255, 0);
+}
+
+.Home_Main_div .title_div{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home_Main_div .title_div label{
+    font-size: larger;
+    color: rgba(241, 241, 241, 0.888);
+}
+
+.Home_Main_div .title_div h1{
+    font-size:70px;
+    color: #FF7575;
+    margin: 0;
+}
+.Home_Main_div .start_div{
+    
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    gap: 40px;
+}
+
+.Home_Main_div .start_div button{
+    transition: 0.2s;
+    font-size: xx-large;
+    padding: 3px 40px ;
+    border: unset;
+    background-color: #33222200;
+    color: #ffffff;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-width: 0;
+}
+.Home_Main_div .start_div button:hover{
+    transition: 0.2s;
+    border-width: 1px;
+}
+.Home_Main_div .start_div label{
+    border-radius: 20px;
+    font-size: large;
+    border: unset;
+    color: #cdcdcd8b;
+}
+@media (max-width:1150px) {
+    .Home_Main_div .title_div label{
+        font-size: larger;
+        color: rgba(241, 241, 241, 0.888);
+    }
+    
+    .Home_Main_div .title_div h1{
+        font-size:50px;
+        color: #FF7575;
+        margin: 0;
+    }
+}
+
+@media (max-width:800px) {
+    .Home_Main_div .title_div label{
+        font-size: large;
+        color: rgba(241, 241, 241, 0.888);
+    }
+    
+    .Home_Main_div .title_div h1{
+        font-size:30px;
+        color: #FF7575;
+        margin: 0;
+    }
+}

@@ -1,0 +1,208 @@
+.Card_Choose_show_main_div{
+    width: 100%;
+    height:200px;
+    overflow-y: scroll;
+}
+.Card_Choose_show_main_div::-webkit-scrollbar{
+    width: 2px;
+
+}
+.Card_Choose_show_main_div::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 153, 255);
+
+}
+.Card_Choose_show_main_div::-webkit-scrollbar-track{
+    background-color: #02020200;
+}
+.CardTypeChoose_mian_div{
+    height:auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.CardTypeChoose_mian_div button{
+    font-size: larger;
+    width: 100%;
+    border: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(228, 238, 250, 0.953);
+}
+.CardTypeChoose_mian_div button:hover{
+    opacity: 0.7;
+}
+
+.CardTypeChoose_mian_div .audioPlayer{
+    width: 270px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.Card_Choose_show_main_div2 .music_name_div{ 
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgba(179, 179, 179, 0.196);
+} 
+.Card_Choose_show_main_div2 .music_name_div label{
+    font-size: larger;
+    font-family:'Dancing Script';
+    font-weight: 600;
+
+}
+.Card_Choose_show_main_div2{
+    width: 100%;
+    height:90px;
+    overflow-y: scroll;
+    
+}
+.Card_Choose_show_main_div2::-webkit-scrollbar{
+    width: 2px;
+
+}
+.Card_Choose_show_main_div2::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 153, 255);
+
+}
+.Card_Choose_show_main_div2::-webkit-scrollbar-track{
+    background-color: #02020200;
+
+    color: rgba(235, 255, 18, 0.112);
+
+}
+.CardTypeChoose_mian_div img{
+    width:100%; 
+    height:190px;
+}
+.Card_Choose_show_main_div img{
+    width:100%; 
+    height:190px;
+}
+@media (max-width:1150px){
+    .Card_Choose_show_main_div{
+        width: 100%;
+        height:120px;
+        overflow-y: scroll;
+    }
+    .Card_Choose_show_main_div2{
+        width: 100%;
+        height:120px;
+        overflow-y: scroll;
+        
+    }
+    .CardTypeChoose_mian_div{
+        height:auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .CardTypeChoose_mian_div img{
+        width:100%; 
+        height:130px;
+    }
+    .Card_Choose_show_main_div img{
+        width:100%; 
+        height:140px;
+    }
+    .Card_Choose_show_main_div2 .music_name_div{ 
+        width: 100%;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid black;
+        background-color: rgb(179, 179, 179);
+    } 
+    .Card_Choose_show_main_div2 .music_name_div label{
+        font-size: large;
+        font-family:'Dancing Script';
+        font-weight: 600;
+    
+    }
+    .CardTypeChoose_mian_div .audioPlayer{
+        width: 190px;
+        height: 50px;
+        margin: 0;
+    }
+    .CardTypeChoose_mian_div button{
+        font-size: large;
+        width: 100%;
+        border: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(228, 238, 250, 0.953);
+    }
+}
+@media (max-width:800px){
+    .Card_Choose_show_main_div{
+        width: 100%;
+        height:100px;
+        overflow-y: scroll;
+    }
+    .Card_Choose_show_main_div2{
+        width: 100%;
+        height:90px;
+        overflow-y: scroll;
+        
+    }
+    .CardTypeChoose_mian_div{
+        height:auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .CardTypeChoose_mian_div img{
+        width:100%; 
+        height:120px;
+    }
+    .Card_Choose_show_main_div img{
+        width:100%; 
+        height:120px;
+    }
+    .Card_Choose_show_main_div2 .music_name_div{ 
+        width: 100%;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid black;
+        background-color: rgb(179, 179, 179);
+    } 
+    .Card_Choose_show_main_div2 .music_name_div label{
+        font-size: large;
+        font-family:'Dancing Script';
+        font-weight: 600;
+    
+    }
+    .CardTypeChoose_mian_div .audioPlayer{
+        width: 190px;
+        height: 50px;
+        margin: 0;
+    }
+    .CardTypeChoose_mian_div button{
+        font-size: large;
+        width: 100%;
+        border: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(228, 238, 250, 0.953);
+    }
+}

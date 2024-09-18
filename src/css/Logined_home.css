@@ -1,0 +1,787 @@
+.Logined_home_Main_div{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1B4C63;
+    background-size:contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logined_home_Main_div .Logined_home_function_main_div{
+    width: 60%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.132);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logined_home_Main_div .Logined_home_function_div{
+    width: 95%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logined_home_Main_div .Logined_home_function_div .function_bar{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(140, 158, 177, 0.51);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Logined_home_Main_div .Logined_home_function_div .function_bar label{
+    font-size: xx-large;
+    width: 80%;
+    text-align: center;
+}
+.Logined_home_Main_div .Logined_home_function_div .function_bar button{
+    font-size: larger;
+    width: 20%;
+    height: 30px;
+    margin-right: 10px;
+}
+.Logined_home_Main_div .Logined_home_function_div .show_div{
+    width: 100%;
+    height: 90%;
+    background-color: rgba(230, 90, 90, 0);
+    border-radius: 0px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center; */
+    overflow-y: scroll;
+}
+.Logined_home_Main_div .Logined_home_function_div .show_div::-webkit-scrollbar{
+    width: 3px;
+}
+.Logined_home_Main_div .Logined_home_function_div .show_div::-webkit-scrollbar-thumb{
+    background-color: aliceblue;
+}
+.Logined_home_Main_div .Logined_home_function_div .show_div::-webkit-scrollbar-track{
+    background-color: #1b4c6300;
+}
+
+.Logined_home_Main_div .craete_main_div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1215px;
+    height:600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Logined_home_Main_div .craete_main_div .left_div{
+    background-color: #fbfbfb;
+    height: 100%;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.Logined_home_Main_div .craete_main_div .left_div .top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+.Logined_home_Main_div .craete_main_div .left_div .bottom{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Logined_home_Main_div .craete_main_div .left_div .bottom button{
+    transition: 0.1s;
+    font-size: larger;
+    border: unset;
+    font-weight: 300;
+    background-color: #f2f1f1;
+    color: rgb(37, 37, 37);
+    border-radius: 50px;
+    padding: 10px;
+    width: 100px;
+    box-shadow: 1px 2px rgba(18, 18, 18, 0.825);
+    font-weight: 600;
+    
+}
+.Logined_home_Main_div .craete_main_div .left_div .bottom button:hover{
+    transition: 0.1s;
+    opacity: 0.7;
+    box-shadow: 1px 1px rgba(18, 18, 18, 0.825)
+    
+}
+.Logined_home_Main_div .craete_main_div .right_div{
+    
+    background-color: #77be715e;
+    height: 100%;
+    width:845px;
+    background-image: url('../Img/Cards_img/2.png');
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Logined_home_Main_div .craete_main_div .right_div .top{
+    width: 78%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.Logined_home_Main_div .craete_main_div .right_div .top input{
+    font-size: 40px;
+    border: unset;
+    outline: unset;
+    background-color: #1b4c6300;
+    font-family:'Dancing Script';
+}
+.Logined_home_Main_div .craete_main_div .right_div .middle{
+    margin-top: 5px;
+    width: 78%;
+    height: 55%;
+    display: flex;
+    flex-direction:column;
+    justify-content: top;
+    align-items: center;
+    gap: 5px;
+}
+.Logined_home_Main_div .craete_main_div .right_div .middle input{
+    font-size: 38px;
+    border: unset;
+    outline: unset;
+    background-color: #1b4c6300;
+    font-family:'Dancing Script';
+}
+.Logined_home_Main_div .craete_main_div .right_div .middle textarea{
+    font-size: xx-large;
+    border: unset;
+    outline: unset;
+    background-color: #1b4c6300;
+    width: 100%;
+    height: 80%;
+    resize: none;
+    font-family:'Dancing Script';
+}
+.Logined_home_Main_div .craete_main_div .right_div .bottom{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Logined_home_Main_div .craete_main_div .right_div .bottom input{
+    font-size: xx-large;
+    border: unset;
+    outline: unset;
+    background-color: #1b4c6300;
+    width: 190px;
+    font-family:'Dancing Script';
+}
+
+
+.Logined_home_Main_div .Card_info_main_div{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff56;
+    border-radius: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+        padding-bottom: 5px;
+}
+.Logined_home_Main_div .Card_info_main_div .title{
+    font-size: xx-large;
+    margin-right: 10px;
+    font-family:'Dancing Script';
+    margin-left: 20px;
+}
+.Logined_home_Main_div .Card_info_main_div .to{
+    font-size: larger;
+    font-family:'Dancing Script';
+}
+.Logined_home_Main_div .Card_info_main_div .from{
+    font-size: larger;
+    font-family:'Dancing Script';
+}
+.Logined_home_Main_div .Card_info_main_div .left{
+    font-size: larger;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px;
+}
+.Logined_home_Main_div .Card_info_main_div .right {
+    font-size: larger;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 10px;
+}
+.Logined_home_Main_div .Card_info_main_div .right .icon{
+    font-size: larger;
+}
+.Logined_home_Main_div .Card_info_main_div .right .icon:hover{
+    opacity: 0.7;
+}
+  
+.Logined_home_Main_div .function_bar button{
+    border: unset;
+    border-radius: 30px;
+    background-color: #f7f7f7b5;
+    color: #323232;
+    font-weight: 600;
+}
+.Logined_home_Main_div .function_bar button:hover{
+   opacity: 0.7;
+}
+.Logined_home_Main_div .function_bar label{
+    font-size:medium;
+    font-weight: 600;
+    color: #dcdcdc;
+    font-family:'Dancing Script' ;
+    
+}
+
+a{
+    color: #80c5e5;
+    margin-top: -3px;
+}
+@keyframes qr{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.qrcode_main_div{
+    width: 500px;
+    height: 350px;
+    background-color: #e0e0e0f5;
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: qr 0.5s;
+}
+
+.qrcode_main_div div{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.qrcode_main_div div button{
+    transition: 0.1s;
+    font-size: larger;
+    border: unset;
+    font-weight: 300;
+    background-color: #f2f1f1;
+    color: rgb(37, 37, 37);
+    border-radius: 50px;
+    padding: 10px;
+    width: 100px;
+    box-shadow: 1px 2px rgba(18, 18, 18, 0.825);
+    font-weight: 600;
+}
+.qrcode_main_div div button:hover{
+    transition: 0.1s;
+    opacity: 0.7;
+    box-shadow: 1px 1px rgba(18, 18, 18, 0.825)
+}
+
+.hint{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    display: none;
+}
+.hint h1{
+    font-size: 50px;
+    font-family:'Dancing Script' ;
+    color: white;
+    margin: 0;
+}
+.hint h2{
+    font-family:'Dancing Script' ;
+    color: white;
+}
+.hint button{
+    transition: 0.1s;
+    font-size: larger;
+    border: unset;
+    font-weight: 300;
+    background-color: #f2f1f1;
+    color: rgb(37, 37, 37);
+    border-radius: 50px;
+    padding: 10px;
+    width: 100px;
+    box-shadow: 1px 2px rgba(18, 18, 18, 0.825);
+    font-weight: 600;
+}
+.hint button:hover{
+    transition: 0.1s;
+    opacity: 0.7;
+    box-shadow: 1px 1px rgba(18, 18, 18, 0.825)
+}
+@media (max-width:1150px) {
+    .Logined_home_Main_div .Logined_home_function_main_div{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.132);
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .Logined_home_Main_div .Logined_home_function_div .function_bar label{
+        font-size: x-large;
+        width: 80%;
+        text-align: center;
+    }
+    .Logined_home_Main_div .Logined_home_function_div .function_bar button{
+        font-size: larger;
+        width: 30%;
+        height: 30px;
+    }
+    .Logined_home_Main_div .Card_info_main_div .title{
+        font-size: 30px;
+        margin-right: 10px;
+        font-family:'Dancing Script';
+        margin-left: 20px;
+    }
+    .Logined_home_Main_div .Card_info_main_div .to{
+        font-size: larger;
+        font-family:'Dancing Script';
+    }
+    .Logined_home_Main_div .Card_info_main_div .from{
+        font-size: larger;
+        font-family:'Dancing Script';
+    }
+    .Logined_home_Main_div .Card_info_main_div .left{
+        font-size: larger;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 20px;
+        gap: 10px;
+    }
+    .Logined_home_Main_div .Card_info_main_div .right {
+        font-size: larger;
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 19px;
+        margin-right: 10px;
+    }
+    .Logined_home_Main_div .Card_info_main_div{
+        width: 100%;
+        height: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #ffffff56;
+        border-radius: 30px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .qrcode_main_div{
+        width: 310px;
+        height: 280px;
+        background-color: #e0e0e0f5;
+        border-radius: 20px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: qr 0.5s;
+    }
+    
+    .Logined_home_Main_div .craete_main_div{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        /* width: 486px;
+        height:240px; */
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow-y: scroll;
+    }
+    .Logined_home_Main_div .craete_main_div .left_div{
+        background-color: #fbfbfb;
+        height: 100%;
+        width: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        align-items: center;
+        max-height: 450px;
+    }
+
+    .Logined_home_Main_div .craete_main_div .right_div .top{
+        width: 78%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    .Logined_home_Main_div .craete_main_div .right_div .top input{
+        font-size: 35px;
+        border: unset;
+        outline: unset;
+        background-color: #1b4c6300;
+        font-family:'Dancing Script';
+    }
+    .Logined_home_Main_div .craete_main_div .right_div .middle{
+        margin-top: 5px;
+        width: 78%;
+        height: 55%;
+        display: flex;
+        flex-direction:column;
+        justify-content: top;
+        align-items: center;
+        gap: 03px;
+    }
+    .Logined_home_Main_div .craete_main_div .right_div .middle input{
+        font-size: 30px;
+        border: unset;
+        outline: unset;
+        background-color: #1b4c6300;
+        font-family:'Dancing Script';
+    }
+    .Logined_home_Main_div .craete_main_div .right_div .middle textarea{
+        font-size: x-large;
+        border: unset;
+        outline: unset;
+        background-color: #1b4c6300;
+        width: 100%;
+        height: 50%;
+        resize: none;
+        font-family:'Dancing Script';
+    }
+    .Logined_home_Main_div .craete_main_div .right_div .bottom{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .Logined_home_Main_div .craete_main_div .right_div .bottom input{
+        font-size: x-large;
+        border: unset;
+        outline: unset;
+        background-color: #1b4c6300;
+        width: 120px;
+        font-family:'Dancing Script';
+    }
+    .Logined_home_Main_div .craete_main_div .right_div{
+        max-height: 450px;
+        max-width: 630px;
+        gap: 0;
+    }
+    .Logined_home_Main_div .craete_main_div .left_div .bottom button{
+        transition: 0.1s;
+        font-size: large;
+        border: unset;
+        font-weight: 300;
+        background-color: #f2f1f1;
+        color: rgb(37, 37, 37);
+        border-radius: 50px;
+        padding: 2px;
+        width: 100px;
+        box-shadow: 1px 2px rgba(18, 18, 18, 0.825);
+        font-weight: 500;
+        
+    }
+}
+
+@media (max-width:800px) {
+    .Logined_home_Main_div .Logined_home_function_main_div{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.132);
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .Logined_home_Main_div .Logined_home_function_div .function_bar label{
+        font-size: x-large;
+        width: 80%;
+        text-align: center;
+    }
+    .Logined_home_Main_div .Logined_home_function_div .function_bar button{
+        font-size: larger;
+        width: 30%;
+        height: 30px;
+    }
+    .Logined_home_Main_div .Card_info_main_div .title{
+        font-size: 20px;
+        margin-right: 10px;
+        font-family:'Dancing Script';
+        margin-left: 20px;
+    }
+    .Logined_home_Main_div .Card_info_main_div .to{
+        font-size: large;
+        font-family:'Dancing Script';
+    }
+    .Logined_home_Main_div .Card_info_main_div .from{
+        font-size: large;
+        font-family:'Dancing Script';
+        display: none;
+    }
+    .Logined_home_Main_div .Card_info_main_div .left{
+        font-size: larger;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 20px;
+        gap: 10px;
+    }
+    .Logined_home_Main_div .Card_info_main_div .right {
+        font-size: larger;
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin-right: 10px;
+    }
+    .Logined_home_Main_div .Card_info_main_div{
+        width: 100%;
+        height: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #ffffff56;
+        border-radius: 30px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .qrcode_main_div{
+        width: 310px;
+        height: 280px;
+        background-color: #e0e0e0f5;
+        border-radius: 20px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: qr 0.5s;
+    }
+    
+    .Logined_home_Main_div .craete_main_div{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        /* width: 486px;
+        height:240px; */
+        width: 85%;
+        height:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow-y: scroll;
+    }
+    .Logined_home_Main_div .craete_main_div .left_div{
+        background-color: #fbfbfb;
+        height: 100%;
+        width: 210px;
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        align-items: center;
+        max-height: 450px;
+    }
+
+    .Logined_home_Main_div .craete_main_div .right_div .top{
+        width: 78%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    .Logined_home_Main_div .craete_main_div .right_div .top input{
+        font-size: 20px;
+        border: unset;
+        outline: unset;
+        background-color: #1b4c6300;
+        font-family:'Dancing Script';
+    }
+    .Logined_home_Main_div .craete_main_div .right_div .middle{
+        margin-top: 5px;
+        width: 78%;
+        height: 55%;
+        display: flex;
+        flex-direction:column;
+        justify-content: top;
+        align-items: center;
+        gap: 03px;
+    }
+    .Logined_home_Main_div .craete_main_div .right_div .middle input{
+        font-size: 20px;
+        border: unset;
+        outline: unset;
+        background-color: #1b4c6300;
+        font-family:'Dancing Script';
+    }
+    .Logined_home_Main_div .craete_main_div .right_div .middle textarea{
+        font-size: large;
+        border: unset;
+        outline: unset;
+        background-color: #1b4c6300;
+        width: 100%;
+        height: 50%;
+        resize: none;
+        font-family:'Dancing Script';
+    }
+    .Logined_home_Main_div .craete_main_div .right_div .bottom{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .Logined_home_Main_div .craete_main_div .right_div .bottom input{
+        font-size: large;
+        border: unset;
+        outline: unset;
+        background-color: #1b4c6300;
+        width: 120px;
+        font-family:'Dancing Script';
+    }
+    .Logined_home_Main_div .craete_main_div .right_div{
+        max-height: 300px;
+        max-width: 400px;
+        gap: 0;
+    }
+    .Logined_home_Main_div .craete_main_div .left_div .bottom button{
+        transition: 0.1s;
+        font-size: large;
+        border: unset;
+        font-weight: 300;
+        background-color: #f2f1f1;
+        color: rgb(37, 37, 37);
+        border-radius: 50px;
+        padding: 2px;
+        width: 100px;
+        box-shadow: 1px 2px rgba(18, 18, 18, 0.825);
+        font-weight: 500;
+        
+    }
+}
+@media (max-width:600px){
+    .Logined_home_Main_div .craete_main_div{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        /* width: 486px;
+        height:240px; */
+        width: 95%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-y: scroll;
+    }
+    .Logined_home_Main_div .craete_main_div .left_div .top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        align-items: center;
+    }
+    .hint{
+        display: flex;
+    }
+}

@@ -1,0 +1,662 @@
+.Christmas_card_Main_div{
+    overflow-x: none;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* @keyframes psmov{
+    0%{transform: rotateZ(0deg);}
+    10%{transform: rotateZ(2deg);}
+    20%{transform: rotateZ(3deg);}
+    30%{transform: rotateZ(1deg);}
+    40%{transform: rotateZ(0deg);}
+    52%{transform: rotateZ(-2deg);}
+    64%{transform: rotateZ(-3deg);}
+    85%{transform: rotateZ(-2deg);}
+    100%{transform: rotateZ(-1deg);}
+} */
+@keyframes ps2{
+    0%{width: 700px;}
+    30%{width: 600px;}
+    40%{width: 500px;}
+    50%{width: 400px;}
+    60%{width: 300px;}
+    70%{width: 200px;}
+    85%{width: 100px;}
+    100%{width: 0px;}
+}
+
+@keyframes bmov{
+    0%{transform: rotateZ(0deg);}
+    10%{transform: rotateZ(2deg);}
+    20%{transform: rotateZ(1deg);}
+    30%{transform: rotateZ(0deg);}
+    40%{transform: rotateZ(-1deg);}
+    52%{transform: rotateZ(-2deg);}
+    64%{transform: rotateZ(-1deg);}
+    85%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(1deg);}
+}
+.Christmas_card_Main_div .bell_img{
+    
+    transition: 0.5s;
+    animation: bmov 0.4s infinite;
+    width: 400px;
+}
+@keyframes smov{
+    0%{transform: rotateZ(0deg); right: -500px; top:500px}
+    10%{transform: rotateZ(2deg);}
+    20%{transform: rotateZ(1deg);}
+    30%{transform: rotateZ(0deg);}
+    40%{transform: rotateZ(-1deg);top:100px}
+    52%{transform: rotateZ(-2deg);}
+    64%{transform: rotateZ(-1deg);}
+    85%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(1deg);right: 1600px;top:300px}
+}
+.Christmas_card_Main_div .santa_img{
+    position: fixed;
+    top:0;
+    right: -500px;
+    width: 500px;
+    transition: 0.5s;
+    animation: smov 9s ;
+}
+@keyframes psmov{
+    0%{transform: rotateX(-180deg); width: 0; top: 15%;right: 20%;}
+    35%{ transform: rotateX(-180deg); width: 0; top: 20%;right: 24%;}
+    55%{ transform: rotateX(-90deg);width: 100;}
+    70%{ transform: rotateX(0deg);width: 250;transform: translate(50%,-50%);}
+    85%{ width: 400;transform: translate(50%,-50%);}
+    100%{width: 500;top: 50%;right: 50%; transform: translate(50%,-50%);}
+    
+}
+.Christmas_card_Main_div .ps_img{
+    width: 500px;
+    position: fixed;
+    transform: rotateX(0deg);
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    
+    animation: psmov 6s ;
+}
+.Christmas_card_Main_div .ps_img_ed{
+    transition: 0.5s;
+    width: 0;
+    animation: ps2 0.3s ;
+    position:fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+@keyframes lt1{
+    0%{width: 0;}
+    30%{width: 0; transform: rotateY(-180deg);}
+    100%{width: 600px; transform: rotateY(0deg);}
+   
+}
+.Christmas_card_Main_div .letter_img{
+    width: 600px;
+    transition: 0.5s;
+    animation: lt1 1s ;
+}
+.Christmas_card_Main_div .letter_img_ed{
+    width: 0px;
+    transition: 0.5s;
+    animation: ps2 0.3s ;
+}
+@keyframes cd1{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{width: 900px;}
+   
+}
+.Christmas_card_Main_div .card_img{
+    width: 900px;
+    transition: 0.5s;
+    animation: cd1 0.9s ;
+}
+@keyframes cd2{
+    0%{width: 0;}
+    100%{width: 900px;}
+   
+}
+.Christmas_card_Main_div .card_img_ed{
+    width: 900px;
+    animation: cd2 1s ;
+    
+}
+
+body::-webkit-scrollbar{
+    width: 5px;
+
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(15, 15, 15);
+    width: 5px;
+    border-radius: 50px;
+
+}
+body::-webkit-scrollbar-track{
+    background-color: #02020200;
+    width: 5px;
+}
+.Christmas_card_Main_div .first_main_div{
+    
+    position: absolute;
+    background-color: rgb(21, 81, 119);
+    width: 100vw;
+    height: 1300vh;
+}
+
+
+.Christmas_card_Main_div .to{
+    font-size: 40px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+    font-family:'Dancing Script';
+    font-weight: 500;
+}
+.Christmas_card_Main_div .title{
+    font-size: 42px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    font-family:'Dancing Script';
+}
+.Christmas_card_Main_div .content{
+    font-size: 34px;
+    width: 75%;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left; */
+    overflow-wrap: break-word;
+    height: 40%;
+    margin: 20px;
+    font-family:'Dancing Script';
+}
+.Christmas_card_Main_div .from{
+    font-size: 32px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5%;
+    margin-right: 100px;
+    font-family:'Dancing Script';
+}
+
+@keyframes c1{
+    0%{ opacity: 0;}
+    50%{ opacity: 0;}
+    100%{ opacity: 1;}
+   
+}
+.Christmas_card_Main_div .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 900px;
+    height: 638.44px;
+    animation: c1 1.2s ;
+}
+
+.click_me_text{
+    font-family:'Dancing Script';
+    font-weight: 600;
+    color: rgb(115, 163, 205);
+    font-size: large;
+}
+
+@keyframes pst{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.click_ps_me_text{
+    font-family:'Dancing Script';
+    font-weight: 600;
+    color: rgb(115, 163, 205);
+    font-size: large;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: pst 6s;
+}
+.click_lt_me_text{
+    font-family:'Dancing Script';
+    font-weight: 600;
+    color: rgb(115, 163, 205);
+    font-size: large;
+    position: fixed;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: pst 1.6s;
+}
+.quit_btn{
+    transition: 0.1s;
+    font-size: larger;
+    border: unset;
+    font-weight: 300;
+    background-color: #f2f1f1;
+    color: rgb(37, 37, 37);
+    border-radius: 50px;
+    padding: 5px;
+    width: 100px;
+    box-shadow: 1px 2px rgba(18, 18, 18, 0.825);
+    font-weight: 600;
+    position: fixed;
+    top: 96%;
+    left: 42%;
+    transform: translate(-50%,-50%);
+}
+.quit_btn2{
+    transition: 0.1s;
+    font-size: larger;
+    border: unset;
+    font-weight: 300;
+    background-color: #f2f1f1;
+    color: rgb(37, 37, 37);
+    border-radius: 50px;
+    padding: 5px;
+    width: 180px;
+    box-shadow: 1px 2px rgba(18, 18, 18, 0.825);
+    font-weight: 600;
+    position: fixed;
+    top: 96%;
+    left: 59%;
+    transform: translate(-50%,-50%);
+}
+.quit_btn:hover,.quit_btn2:hover{
+    transition: 0.1s;
+    opacity: 0.7;
+    box-shadow: 1px 1px rgba(18, 18, 18, 0.825)
+}
+@media (max-width:1150px) {
+    .quit_btn{
+        transition: 0.1s;
+        font-size: larger;
+        border: unset;
+        font-weight: 300;
+        background-color: #f2f1f1;
+        color: rgb(37, 37, 37);
+        border-radius: 50px;
+        padding: 5px;
+        width: 100px;
+        box-shadow: 1px 2px rgba(18, 18, 18, 0.825);
+        font-weight: 600;
+        position: fixed;
+        top: 96%;
+        left: 35%;
+        transform: translate(-50%,-50%);
+    }
+    .quit_btn2{
+        transition: 0.1s;
+        font-size: larger;
+        border: unset;
+        font-weight: 300;
+        background-color: #f2f1f1;
+        color: rgb(37, 37, 37);
+        border-radius: 50px;
+        padding: 5px;
+        width: 180px;
+        box-shadow: 1px 2px rgba(18, 18, 18, 0.825);
+        font-weight: 600;
+        position: fixed;
+        top: 96%;
+        left: 65%;
+        transform: translate(-50%,-50%);
+    }
+    .click_lt_me_text{
+        font-family:'Dancing Script';
+        font-weight: 600;
+        color: rgb(115, 163, 205);
+        font-size: large;
+        position: fixed;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        animation: pst 1.6s;
+    }
+    .Christmas_card_Main_div .bell_img{
+    
+        transition: 0.5s;
+        animation: bmov 0.4s infinite;
+        width: 400px;
+    }
+    @keyframes psmov{
+        0%{ width: 0; top: 35%;right: 20%;}
+        35%{  width: 0; top: 35%;right: 24%; }
+        /* 55%{ width: 100;top: 25%;right: 29%;}
+        
+        85%{ width: 400;top: 40%;right: 41%;} */
+        70%{ width: 150px;}
+        100%{width: 400px;top: 60%;right: 50%; }
+        
+    }
+    @keyframes cd1{
+        0%{width: 0;}
+        50%{width: 0;}
+        100%{width: 700px;}
+       
+    }
+    @keyframes cd2{
+        0%{width: 0;}
+        100%{width: 700px;}
+       
+    }
+    .Christmas_card_Main_div .ps_img{
+        width: 400px;
+        position: fixed;
+        top: 60%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        
+        animation: psmov 4s ;
+    }
+    .Christmas_card_Main_div .card_img{
+        width: 700px;
+        transition: 0.5s;
+        animation: cd1 0.9s ;
+    }
+    .Christmas_card_Main_div .card_img_ed{
+        width: 700px;
+        animation: cd2 1s ;
+        position:fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        
+    }
+    
+    
+    .Christmas_card_Main_div .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 650px;
+        height: 378.44px;
+        animation: c1 1.2s ;
+    }
+    
+    
+    .Christmas_card_Main_div .to{
+        font-size: 35px;
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 20%;
+        font-family:'Dancing Script';
+        font-weight: 500;
+    }
+    .Christmas_card_Main_div .title{
+        font-size: 35px;
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 3%;
+        font-family:'Dancing Script';
+        margin-top: 20px;
+    }
+    .Christmas_card_Main_div .content{
+        font-size: 30px;
+        width: 75%;
+        
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: left; */
+        height: 45%;
+        margin: 20px;
+        font-family:'Dancing Script';
+    }
+    .Christmas_card_Main_div .from{
+        font-size: 34px;
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        height: 5%;
+        margin-right:10px ;
+        font-family:'Dancing Script';
+    }
+    @keyframes ps2{
+        0%{width: 600px;}
+        
+        100%{width: 0px;}
+    }
+    @keyframes lt1{
+        0%{width: 0;}
+        30%{width: 0; transform: rotateY(-180deg);}
+        100%{width: 600px; transform: rotateY(0deg);}
+       
+    }
+    .Christmas_card_Main_div .letter_img{
+        width: 600px;
+        transition: 0.5s;
+        animation: lt1 1s ;
+    }
+    .Christmas_card_Main_div .letter_img_ed{
+        width: 0px;
+        transition: 0.5s;
+        animation: ps2 0.3s ;
+    }
+   
+}
+
+
+
+  
+@media (max-width:800px) {
+    .quit_btn{
+        transition: 0.1s;
+        font-size: medium;
+        border: unset;
+        font-weight: 300;
+        background-color: #f2f1f1;
+        color: rgb(37, 37, 37);
+        border-radius: 50px;
+        padding: 5px;
+        width: 70px;
+        box-shadow: 1px 2px rgba(18, 18, 18, 0.825);
+        font-weight: 600;
+        position: fixed;
+        top: 86%;
+        left: 30%;
+        transform: translate(-50%,-50%);
+    }
+    .quit_btn2{
+        transition: 0.1s;
+        font-size: medium;
+        border: unset;
+        font-weight: 300;
+        background-color: #f2f1f1;
+        color: rgb(37, 37, 37);
+        border-radius: 50px;
+        padding: 5px;
+        width: 140px;
+        box-shadow: 1px 2px rgba(18, 18, 18, 0.825);
+        font-weight: 600;
+        position: fixed;
+        top: 86%;
+        left: 60%;
+        transform: translate(-50%,-50%);
+    }
+    .click_lt_me_text{
+        font-family:'Dancing Script';
+        font-weight: 600;
+        color: rgb(115, 163, 205);
+        font-size: large;
+        position: fixed;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        animation: pst 1.6s;
+    }
+    .Christmas_card_Main_div .bell_img{
+    
+        transition: 0.5s;
+        animation: bmov 0.4s infinite;
+        width: 300px;
+    }
+    @keyframes psmov{
+        0%{ width: 0; top: 35%;right: 20%;}
+        35%{  width: 0; top: 35%;right: 24%; }
+        /* 55%{ width: 100;top: 25%;right: 29%;}
+        
+        85%{ width: 400;top: 40%;right: 41%;} */
+        70%{ width: 150px;}
+        100%{width: 400px;top: 60%;right: 50%; }
+        
+    }
+    @keyframes cd1{
+        0%{width: 0px;}
+        50%{width: 0;}
+        100%{width: 350px;}
+       
+    }
+    @keyframes cd2{
+        0%{width: 0px;}
+        100%{width: 350px;}
+       
+    }
+    .Christmas_card_Main_div .ps_img{
+        width: 400px;
+        position: fixed;
+        top: 60%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        
+        animation: psmov 4s ;
+    }
+    .Christmas_card_Main_div .card_img{
+        width: 350px;
+        transition: 0.5s;
+        animation: cd1 0.9s ;
+    }
+    .Christmas_card_Main_div .card_img_ed{
+        width: 350px;
+        animation: cd2 1s ;
+        position:fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    
+    .Christmas_card_Main_div .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position:fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 350px;
+        height: 148.44px;
+        animation: c1 1.2s ;
+    }
+    
+    
+    .Christmas_card_Main_div .to{
+        font-size: 20px;
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 20%;
+        font-family:'Dancing Script';
+        font-weight: 500;
+    }
+    .Christmas_card_Main_div .title{
+        font-size: 20px;
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 1%;
+        font-family:'Dancing Script';
+        margin-top: 10px;
+    }
+    .Christmas_card_Main_div .content{
+        font-size: 18px;
+        width: 75%;
+        
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: left; */
+        gap: 0;
+        height: 55%;
+        margin: 10px;
+        font-family:'Dancing Script';
+    }
+    .Christmas_card_Main_div .from{
+        font-size: 22px;
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        height: 5%;
+        margin-right:10px ;
+        font-family:'Dancing Script';
+    }
+    @keyframes ps2{
+        0%{width: 400px;}
+        
+        100%{width: 0px;}
+    }
+    @keyframes lt1{
+        0%{width: 0;}
+        30%{width: 0; transform: rotateY(-180deg);}
+        100%{width: 300px; transform: rotateY(0deg);}
+       
+    }
+    .Christmas_card_Main_div .letter_img{
+        width: 300px;
+        transition: 0.5s;
+        animation: lt1 1s ;
+    }
+    .Christmas_card_Main_div .letter_img_ed{
+        width: 0px;
+        transition: 0.5s;
+        animation: ps2 0.3s ;
+    }
+   
+}
+
